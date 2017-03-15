@@ -8,7 +8,7 @@ Caesar cipher - basic shift cipher
 
 int main(int argc, char *argv[])
 {
-	if(!argv[2])
+	if(!argv[1])
 	{
 		printf("Usage: CaesarCipher -e|-d 'Message'\n");
 		return 1;
